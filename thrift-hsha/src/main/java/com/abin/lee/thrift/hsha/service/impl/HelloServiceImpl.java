@@ -1,4 +1,4 @@
-package com.abin.lee.thrift.service.impl;
+package com.abin.lee.thrift.hsha.service.impl;
 
 import com.abin.lee.thrift.api.HelloService;
 import com.google.common.primitives.Longs;

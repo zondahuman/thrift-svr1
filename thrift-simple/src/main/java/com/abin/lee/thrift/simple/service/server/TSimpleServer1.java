@@ -1,9 +1,8 @@
-package com.abin.lee.thrift.service.server;
+package com.abin.lee.thrift.simple.service.server;
 
 import com.abin.lee.thrift.api.HelloService;
-import com.abin.lee.thrift.service.impl.HelloServiceImpl;
+import com.abin.lee.thrift.simple.service.impl.HelloServiceImpl;
 import org.apache.thrift.TProcessor;
-import org.apache.thrift.protocol.TBinaryProtocol;
 import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.server.TServer;
 import org.apache.thrift.server.TSimpleServer;
@@ -20,7 +19,7 @@ public class TSimpleServer1 {
 
     public void startServer() {
         try {
-            System.out.println("HelloWorld TSimpleServer start ....");
+            System.out.println("HelloService TSimpleServer start ....");
 
             TProcessor tprocessor = new HelloService.Processor<HelloService.Iface>(new HelloServiceImpl());
             // HelloWorldService.Processor&lt;HelloWorldService.Iface&gt; tprocessor =

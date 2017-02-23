@@ -17,6 +17,15 @@
 
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.abin.lee</groupId>
+            <artifactId>thrift-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+
+    </dependencies>
 
 
 
